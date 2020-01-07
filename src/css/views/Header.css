@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B1C1D;
+    color: #f6c344 !important;
+}
+
+.header-toggler {
+    background-color: #f6c344;
+}
+
+.header-item {
+    font-family: TimerFont;
+    font-size: 25px;
+    color: #f6c344 !important;
+}
+
+.header-title {
+    font-family: TimerFont;
+    font-size: 45px;
+    color: #f6c344 !important;
+}
+  

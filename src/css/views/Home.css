@@ -1,0 +1,28 @@
+
+.home-box-container {
+  background-image: url(../../resources/img/background-photo.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+ .home-box-container {
+   /* The file size of this background image is 93% smaller
+      to improve page load speed on mobile internet connections */
+   background-image: url(../../resources/img/background-photo-mobile.jpg);
+   background-position: 0 0;
+   background-repeat: no-repeat;
+   background-attachment: initial;
+   background-size: auto auto;
+ }
+}

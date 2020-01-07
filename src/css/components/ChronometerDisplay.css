@@ -1,0 +1,44 @@
+
+@media screen and (min-width : 300px) and (max-width : 699px) {
+  .chronometer-time {
+    margin-top: 45px !important;
+    font-size: 80px !important;
+  }
+  .chronometer-time-centi {
+    margin-top: 15px !important;
+    font-size: 110px !important;
+  }
+}
+
+@media screen and (min-width : 700px) and (max-width : 1024px) {
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1500px) {
+  .chronometer-time {
+    margin-top: 15px !important;
+    font-size: 180px !important;
+  }
+  .chronometer-time-centi {
+    margin-top: 15px !important;
+    font-size: 120px !important;
+  }
+}
+
+/*DEFAULT_DEVICES*/
+
+.chronometer-time {
+  font-family: TimerFont;
+  margin-top: 15px;
+  font-size: 260px;
+  color: whitesmoke;
+  margin-bottom: 0px !important;
+}
+
+.chronometer-time-centi {
+  font-family: TimerFont;
+  margin-top: 15px;
+  font-size: 150px;
+  color: #f6c344;
+  margin-bottom: 0px !important;
+}
+  

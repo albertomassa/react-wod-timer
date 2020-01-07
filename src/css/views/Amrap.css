@@ -1,0 +1,47 @@
+.amrap-box-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width : 300px) and (max-width : 699px) {
+  .timer-amrap-wod-name {
+    margin-top: 125px !important;
+    font-size: 45px !important;
+  }
+}
+
+@media screen and (min-width : 700px) and (max-width : 1024px) {
+  .timer-amrap-wod-name {
+    font-size: 65px !important;
+  }
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1500px) {
+  .timer-amrap-wod-name {
+    font-size: 75px !important;
+  }
+}
+
+/*DEFAULT_DEVICES*/
+
+.timer-amrap {
+  width: 100%;
+  height: 100%;
+}
+
+.timer-amrap-label {
+  font-family: TimerFont;
+  margin-top: 2px;
+  font-size: 54px;
+}
+
+.timer-amrap-wod-name {
+  margin-top: 35px;
+  font-family: TimerFont;
+  font-size: 130px;
+}

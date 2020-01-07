@@ -1,0 +1,18 @@
+.timer-modal-emom-rounds-button {
+  margin-left: 5px;
+  margin-right: 10px; 
+}
+
+.timer-modal-emom-rounds {
+  margin-top: 5px;
+  font-family: TimerFont;
+}
+
+.timer-modal-emom-rounds-details {
+  margin-top: 10px;
+}
+
+.timer-modal-emom-wod-name {
+  margin-top: 5px;
+  width: 200px;
+}

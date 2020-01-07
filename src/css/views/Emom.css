@@ -1,0 +1,70 @@
+.emom-box-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width : 300px) and (max-width : 699px) {
+  .timer-emom-round-bar {
+    margin-left: 45px !important;
+    width: 70% !important;
+  }
+  .timer-emom-wod-name {
+    margin-top: 65px !important;
+    font-size: 70px !important;
+  }
+}
+
+
+@media screen and (min-width : 700px) and (max-width : 1024px) {
+  .timer-emom-round-bar {
+    margin-left: 75px !important;
+    width: 70% !important;
+  }
+  .timer-emom-wod-name {
+    margin-top: 65px !important;
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1500px) {
+  .timer-emom-wod-name {
+    margin-top: 35px !important;
+    font-size: 100px !important;
+  }
+}
+
+/*DEFAULT_DEVICES*/
+
+.timer-emom {
+  width: 100%;
+  height: 100%;
+}
+
+.timer-emom-label {
+  font-family: TimerFont;
+  margin-top: 2px;
+  font-size: 54px;
+}
+
+.timer-emom-display-container {
+  margin-top: 20px;
+}
+
+.timer-emom-wod-name {
+  margin-top: 35px;
+  font-family: TimerFont;
+  font-size: 170px;
+}
+
+.timer-emom-round-bar {
+  margin-top: 25px;
+  font-family: TimerFont;
+  margin-left: 165px;
+  width: 55%;
+}
+
